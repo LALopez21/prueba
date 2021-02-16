@@ -260,8 +260,18 @@ margin-top: 0;
 }
 
 
+@media (max-width: 321px){
+.navbar,
+.actions{
+  display: none;
+}
 
+.logo{
+  display: revert;
+}
 
+.main h1{
+  font-size: 35px;
+}
 
-
-
+}
