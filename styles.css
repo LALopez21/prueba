@@ -38,7 +38,6 @@ body {
   border: 1px solid #c6c6c6;
   padding: 0 5px;
 }
-
 .main .banner {
   margin-top: 25px;
   text-align: center;
@@ -95,7 +94,6 @@ body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .actions {
-  /* width: 20%; */
   text-align: right;
   font-weight: 600;
   font-size: 14px;
@@ -277,6 +275,52 @@ body {
   padding: 5px;
   border: 5px solid #f9da73;
 }
+.success-stories .stories-carousel .card .summit {
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/08/0.jpg');
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.success-stories .stories-carousel .card .card-circle-summit {
+  position: absolute;
+  bottom: 255px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #81d742;
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/08/SeatoSummitLogo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border: 5px solid #81d742;
+}
+.success-stories .stories-carousel .card .mambe {
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png');
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.success-stories .stories-carousel .card .card-circle-mambe {
+  position: absolute;
+  bottom: 255px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ef7179;
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/06/mambe-logo-1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border: 5px solid #ef7179;
+}
 .card-container {
   background-color: #a1d683;
   padding: 35px;
@@ -317,7 +361,6 @@ body {
   margin-top: 40px;
   padding-right: 10px;
 }
-
 .header h5 {
   color: #025157;
   font-size: 12px;
@@ -349,7 +392,23 @@ body {
 .header .platforms .btn-group button > img {
   margin-right: 5px;
 }
-
+.faq {
+  background-color: #fff;
+  text-align: start;
+}
+.faq button {
+  font-family: 'Alegreya', serif;
+  color: #025157;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+}
+.faq button:hover {
+  color: #025157;
+}
+.faq button:focus {
+  outline: none;
+}
 @media (max-width: 425px) {
   .logo {
     display: revert;
@@ -393,6 +452,4 @@ body {
   .features .feature-image {
     display: none;
   }
-}
-
 }
